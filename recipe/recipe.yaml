@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.4"
+  version: "0.1.5"
 
 package:
   name: capcheck
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/git-pkgs/capcheck/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: d861b681b9abf3200dbd450bada80dffef72a887bee1cff630e6ee9b1250a134
+  sha256: 7ca4149890eb7be4113e40be69748587925857bf6e533908d16d22b4f7e00c45
   target_directory: src
 
 build:
